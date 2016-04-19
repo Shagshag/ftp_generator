@@ -1,0 +1,12 @@
+<title "Générateur d'URL FTP">
+<help_title "Ceci est un simple générateur d'URL FTP">
+<help_detail "Remplissez le formulaire ci-dessous et cliquez sur \"Générer\", aucune donnée ne sera envoyée.">
+
+<error_title "Javascript est requis">
+<error_detail "Cet outils ne fonctionnera pas si javascript n'est pas activé.">
+
+<label_domain "Domaine">
+<label_file "Fichier">
+<label_username "Utilisateur">
+<label_password "Mot de passe">
+<action_generate "Générer">

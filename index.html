@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title data-l10n-id="title">
+      FTP URL generator
+    </title>
+    <link rel="localization" href="locales/manifest.json">
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <br>
+    <div class="row">
+      <div class="medium-12 columns">
+        <div class="callout primary">
+          <h5 data-l10n-id="help_title">This is just an FTP URL generator</h5>
+          <p data-l10n-id="help_detail">Just fill the form below the click on "Generate", no information will be sent to anyone.</p>
+        </div>
+
+        <div id="alert_nojs" class="callout alert">
+          <h5 data-l10n-id="error_title">Javascript is needed</h5>
+          <p data-l10n-id="error_detail">This tool will not work if javascript is not enable.</p>
+        </div>
+
+        <div id="main" class="hide">
+          <form>
+            <div class="row">
+              <div class="medium-6 columns">
+                <label><span data-l10n-id="label_domain">Domain</span>
+                  <input type="text" id="domain" required="required" placeholder="example.com">
+                </label>
+              </div>
+              <div class="medium-6 columns">
+                <label><span data-l10n-id="label_file">File</span>
+                  <input type="text" id="filename" placeholder="folder/sub_folder/file.txt">
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="medium-6 columns">
+                <label><span data-l10n-id="label_username">Username</span>
+                  <input type="text" id="username" placeholder="username">
+                </label>
+              </div>
+              <div class="medium-6 columns">
+                <label><span data-l10n-id="label_password">Password</span>
+                  <input type="text" id="password" placeholder="password">
+                </label>
+              </div>
+            </div>
+            <p><button type="submit" class="button success generate" data-l10n-id="action_generate">Generate</button></p>
+            <div class="row">
+              <div class="medium-12 columns">
+                <input type="text" id="ftp_url" placeholder="ftp://username:password@example.com/folder/subfolder/file.txt">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

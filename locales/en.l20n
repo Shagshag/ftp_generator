@@ -1,0 +1,12 @@
+<title "FTP URL generator">
+<help_title "This is just an FTP URL generator">
+<help_detail "Just fill the form below the click on "Generate", no information will be sent to anyone.">
+
+<error_title "Javascript is needed">
+<error_detail "This tool will not work if javascript is not enable.">
+
+<label_domain "Domain">
+<label_file "File">
+<label_username "Username">
+<label_password "Password">
+<action_generate "Generate">
